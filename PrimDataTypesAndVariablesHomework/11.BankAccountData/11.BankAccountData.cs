@@ -12,9 +12,9 @@ namespace _11.BankAccountData
             decimal balance;
             string bankName;
             string iBAN;
-            byte creditCard1Numb;
-            byte creditCard2Numb;
-            byte creditCard3Numb;
+            string creditCard1Numb;
+            string creditCard2Numb;
+            string creditCard3Numb;
         }
     }
 }

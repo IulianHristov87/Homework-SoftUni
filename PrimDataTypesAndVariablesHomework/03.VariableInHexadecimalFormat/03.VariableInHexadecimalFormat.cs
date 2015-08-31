@@ -6,8 +6,8 @@ namespace _03.VariableInHexadecimalFormat
     {
         static void Main()
         {
-            byte varToHex= 0xFE;
-            Console.WriteLine(varToHex);
+            byte varInHex= 0xFE;
+            Console.WriteLine(varInHex);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace _01.DeclareVariables
             byte four = 97;
             short five = -10000;
 
-            Console.WriteLine("{0}\n{1}\n{2}\n{3}\n{4}",one,two,three,four,five);
+            Console.WriteLine("{0}{1}{2}{3}{4}{5}{6}{7}{8}", one, Environment.NewLine, two, Environment.NewLine, three, Environment.NewLine, four, Environment.NewLine, five);
 
         }
     }

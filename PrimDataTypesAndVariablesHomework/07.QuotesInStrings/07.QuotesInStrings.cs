@@ -8,7 +8,7 @@ namespace _07.QuotesInStrings
         {
             string one = "The \"use\" of quotations causes difficulties.";
             string two = @"The ""use"" of quotations causes difficulties.";
-            Console.WriteLine("{0}\n{1}", one, two);
+            Console.WriteLine("{0}{1}{2}", one, Environment.NewLine, two);
         }
     }
 }
