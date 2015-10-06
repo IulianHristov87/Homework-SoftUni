@@ -128,11 +128,11 @@ namespace _02.TheFootballStatistician
                         case "Tottenham":
                             if (result == "1")
                             {
-                                manCityPoints += 3;
+                                tottenhamPoints += 3;
                             }
                             else if (result == "X")
                             {
-                                manCityPoints += 1;
+                                tottenhamPoints += 1;
                             }
                             break;
 
