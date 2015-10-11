@@ -14,6 +14,7 @@ namespace _02.SortingNumbers
             int n = int.Parse(Console.ReadLine());
 
             int[] numbers = new int[n];
+            Console.WriteLine("Please enter {0} numbers, after every one press enter", n);
 
             for (int i = 0; i < n; i++)
             {
