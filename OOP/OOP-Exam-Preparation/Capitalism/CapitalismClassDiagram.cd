@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Capitalism.Models.Accountant" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Accountant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capitalism.Models.CEO" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\CEO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Capitalism.Models.ChiefTelephoneOfficer" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\ChiefTelephoneOfficer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capitalism.Models.CleaningLady" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\CleaningLady.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capitalism.Models.Company" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAACAABAQACAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Company.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Capitalism.Models.Department" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAQECAAEBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Department.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Capitalism.Models.Employee" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Capitalism.Models.Manager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Manager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Capitalism.Models.PaidPerson" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAGAAAABgAAAAAAAAAAAAAAAAAAAAAAAACAAAAAg=</HashCode>
+      <FileName>Models\PaidPerson.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Capitalism.Models.Regular" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Regular.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capitalism.Models.Salesman" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Salesman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Capitalism.Program" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Capitalism.Models.Interfaces.IBoss" Collapsed="true">
+    <Position X="17" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Interfaces\IBoss.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Capitalism.Models.Interfaces.ICompanyStructure" Collapsed="true">
+    <Position X="18.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\ICompanyStructure.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Capitalism.Models.Interfaces.IEmployee" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Capitalism.Models.Interfaces.IPaidPerson" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Interfaces\IPaidPerson.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Capitalism.Models.Interfaces.IPerson" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Models\Interfaces\IPerson.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
